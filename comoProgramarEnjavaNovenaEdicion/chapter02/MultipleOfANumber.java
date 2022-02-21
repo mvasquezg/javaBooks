@@ -11,7 +11,7 @@ public class MultipleOfANumber{
         Scanner in=new Scanner(System.in);
         int number1=0, number2=0;
 
-        System.out.print("Programa que determina si el primer numero es multiplo del segundo.\n\nIngrese el primer numero: ");
+        System.out.print("Programa que determina si el primer numero es multiplo del segundo.\nIngrese el primer numero: ");
         number1=in.nextInt();
         System.out.print("Ingrese el segundo numero: ");
         number2=in.nextInt();
