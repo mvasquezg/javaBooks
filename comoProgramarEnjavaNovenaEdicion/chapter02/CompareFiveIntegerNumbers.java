@@ -1,3 +1,8 @@
+/**
+  *Book: JAVA HOW TO PROGRAM, 9TH EDITION, BY PAUL DEITEL AND HARVEY DEITEL. 
+  *Chapter 02: Introduction to apps in Java,
+  *Program 13.- Compare 5 integers and decide which one(s) are higher as well as which one(s) are lower than the five, only with if statement.
+*/
 import java.util.Scanner;
 
 public class CompareFiveIntegerNumbers{
