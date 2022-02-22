@@ -1,6 +1,6 @@
 /**
-  *Book: JAVA HOW TO PROGRAM, 9TH EDITION, BY PAUL DEITEL AND HARVEY DEITEL. 
   *Chapter 02: Introduction to apps in Java,
+  *Book: JAVA HOW TO PROGRAM, 9TH EDITION, BY PAUL DEITEL AND HARVEY DEITEL. 
   *Program 17.- Show the area, diameter and circumference from the radius of a circle.
 */
 import java.util.Scanner;
@@ -25,8 +25,5 @@ public class Circle{
         //Circumference of circle
         circumference=3.1416*diameter;
         System.out.println("El area del circulo es igual a : "+circumference);
-
-
-    }//end main
-
-}//end Circle
+      }//end main
+}//end Circle  *Chapter 02: Introduction to apps in Java,  *Chapter 02: Introduction to apps in Java,
