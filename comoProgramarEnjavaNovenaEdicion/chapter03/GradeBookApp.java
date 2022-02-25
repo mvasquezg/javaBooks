@@ -12,7 +12,7 @@ public class GradeBookApp{
         String nameCourse="";
 
         //Creaate object type GradeBook
-        GradeBook gradeBook01=new GradeBook();
+        //GradeBook gradeBook01=new GradeBook();
 
         /*call method of the class GradeBook
         gradeBook01.showMessage();*/
@@ -25,7 +25,7 @@ public class GradeBookApp{
         call method with pased of parameter
         gradeBook01.showMessage(nameCourse);*/
         
-        /*Modified of chapter 3.4*/
+        /*Modified of chapter 3.4
         System.out.print("El nombre del curso es: "+gradeBook01.getNameCourse());
         
         System.out.print("\nIngrese el nombre del curso: ");
@@ -34,6 +34,14 @@ public class GradeBookApp{
         System.out.println();
 
         gradeBook01.showMessage();
+        */
+
+        /*modified chapter 3.6*/
+        GradeBook gradeBook01=new GradeBook("CS101 Introduccion a la programacion en Java");
+        GradeBook gradeBook02=new GradeBook("CS102 Estructuras de datos en Java");
+
+        System.out.println("El nombre del curso de libro calificaciones 01 es: "+gradeBook01.getNameCourse());
+        System.out.println("El nombre del curso de libro calificaciones 01 es: "+gradeBook02.getNameCourse());
     }//end main
 
 }//end class GradeBookApp

@@ -20,6 +20,11 @@ public class GradeBook{
     //Variables
     private String nameCourse;
 
+    //Modified of chapter 3.6 add constructor
+    public GradeBook(String name){
+        nameCourse=name;
+    }//end GradeBook
+
     //Methods sets
     public void setNameCourse(String name){
         nameCourse=name;
