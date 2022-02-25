@@ -6,7 +6,7 @@
 import java.util.Scanner;
 
 public class GradeBookApp{
-     public static void main(String[] args){
+      public static void main(String[] args){
         Scanner in=new Scanner(System.in);
 
         String nameCourse="";
@@ -36,12 +36,23 @@ public class GradeBookApp{
         gradeBook01.showMessage();
         */
 
-        /*modified chapter 3.6*/
+        /*modified chapter 3.6
         GradeBook gradeBook01=new GradeBook("CS101 Introduccion a la programacion en Java");
         GradeBook gradeBook02=new GradeBook("CS102 Estructuras de datos en Java");
 
         System.out.println("El nombre del curso de libro calificaciones 01 es: "+gradeBook01.getNameCourse());
         System.out.println("El nombre del curso de libro calificaciones 01 es: "+gradeBook02.getNameCourse());
+      */
+      
+      //Modified of chapter 3 exercise 3.11
+      GradeBook gradeBook01=new GradeBook("CS101 Introduccion a la programacion en Java", "Atilano Sanchez Aguilar");
+      GradeBook gradeBook02=new GradeBook("CS102 Estructuras de datos en Java", "Erasmo Gonzalez");
+
+      gradeBook01.showMessage();
+      System.out.println();
+      gradeBook02.showMessage();
+
+
     }//end main
 
 }//end class GradeBookApp
