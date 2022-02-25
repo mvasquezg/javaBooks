@@ -12,6 +12,8 @@ public class AccountApp{
 
         //Variables
         double depositAmount=0;
+        //Add Modified chapter 03 exercise 3.12
+        double withdrawal;
 
         Account account01=new Account(50.00);
         Account account02=new Account(-7.53);
@@ -36,6 +38,13 @@ public class AccountApp{
         System.out.println("\n\nSaldo de la cuenta 01: "+account01.getBalance());
         System.out.println("Saldo de la cuenta 02: "+account02.getBalance());
 
+        //Modified chapter 03 exercise 3.12
+        System.out.print("\nIngrese el saldo a retirar de la cuenta 01: ");
+        withdrawal=in.nextDouble();
+        account01.withdrawals(withdrawal);
+        
+        System.out.print("\nIngrese el saldo a retirar de la cuenta 02: ");
+        withdrawal=in.nextDouble();
+        account02.withdrawals(withdrawal);
     }//end main    
-
 }//end AccountApp

@@ -28,4 +28,13 @@ public class Account{
         balance=balance+amount;
     }//end payToAccount
 
+    //Modified chapter 03 exercise 3.12
+    public void withdrawals(double amount){
+        if(amount>balance){
+            System.out.println("Error: El monto a retirar es mayor al saldo.\nSaldo disponible: "+balance);
+        }else {
+            balance=balance-amount;
+            System.out.println("Su saldo actual es igual a: "+balance);
+        }
+    }//end withdrawals
 }//end Account
