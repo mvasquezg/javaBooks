@@ -43,23 +43,30 @@ public class GradeBook{
     public void calculateClassAverage(){
         Scanner in=new Scanner(System.in);
         int sumQualifications=0;
-        int countQualifications=1;
+        int countQualifications=0;
         int qualification=0;
-        int average=0;
+        //int average=0;
+        
+        //Modified Chapter 04.9
+        double average=0.0f;
+        
+        System.out.print("Ingrese la calificacion o -1 para terminar: ");
+        qualification=in.nextInt();
 
-        while(countQualifications<=10){
-            System.out.print("Ingrese la calificacion: ");
-            qualification=in.nextInt();
+        while(qualification!=-1){
             sumQualifications=sumQualifications+qualification;
             countQualifications=countQualifications+1;
+
+            System.out.print("Ingrese la calificacion o -1 para terminar: ");
+            qualification=in.nextInt();
         }//end while
 
-        average=sumQualifications/10;
-
-        System.out.println("\nEl total de las 10 calificaciones es: "+sumQualifications);
-        System.out.println("El promedio de la clase es: "+average);
+        if(countQualifications!=0){
+            average=(double) sumQualifications/countQualifications;
+            System.out.println("\nEl total de las "+countQualifications+" calificaciones es: "+sumQualifications);
+            System.out.println("El promedio de la clase es: "+average);
+        }else{
+            System.out.println("No se introdujeron calificaciones.");
+        }     
     }
-
-
-
 }//end class GradeBook
