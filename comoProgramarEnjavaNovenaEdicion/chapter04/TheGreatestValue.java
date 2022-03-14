@@ -1,7 +1,7 @@
 /**
   *Book: JAVA HOW TO PROGRAM, 9TH EDITION, BY PAUL DEITEL AND HARVEY DEITEL. 
   *Chapter 04: Control instructions part I.
-  *Programa 19: Caculate the sales workers.
+  *Programa 19: Show the gratest value from ten numbers.
 */
 import java.util.Scanner;
 
