@@ -1,7 +1,7 @@
 /**
   *Book: JAVA HOW TO PROGRAM, 9TH EDITION, BY PAUL DEITEL AND HARVEY DEITEL. 
   *Chapter 04: Control instructions part I.
-  *Programa 32: Know if the triangle-rectangule is right with medidas.
+  *Programa 33: Know if the triangle is right with medidas.
 */
 import java.util.Scanner;
 
