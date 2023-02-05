@@ -8,9 +8,16 @@ public class DateApp{
     public static void main(String[] args){
         Date date=new Date();
 
-        date.day=2;
-        date.month=10;
-        date.year=1970;
+        date.setDay(2);
+        date.setMonth(10);
+        date.setYear(1970);
+
+        System.out.println("Dia = "+date.getDay());
+        System.out.println("Mes = "+date.getMonth());
+        System.out.println("Anho = "+date.getYear());
+
+
+
 
     }//end main
 }//end DateApp
