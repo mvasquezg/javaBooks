@@ -33,7 +33,7 @@ public class Date{
         return this.month;
     }
 
-    public void getYear(){
+    public int getYear(){
         return this.year;
     }
     // ------------- end Methods Get -------------
