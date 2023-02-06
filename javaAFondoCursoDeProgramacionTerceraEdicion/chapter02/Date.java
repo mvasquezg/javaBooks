@@ -10,6 +10,15 @@ public class Date{
     private int month;
     private int year;
 
+    //Constructor
+    public Date(int day, int month, int year){
+        this.day=day;
+        this.month=month;
+        this.year=year;
+    }
+
+
+
     // ------------- Start Methods Set -------------
     public void setDay(int day){
         this.day=day;
@@ -47,7 +56,7 @@ public class Date{
     //Sobreescribiendo el metodo equals
     public boolean equals(Object o){
         Date otherDate= (Date) o;
-        return (day==otherDate.day) && (month==otherDate.month) && (year==otherDate.year);
+        return (this.day==otherDate.day) && (this.month==otherDate.month) && (this.year==otherDate.year);
     }
 
     // ------------- end Others Methods -------------
