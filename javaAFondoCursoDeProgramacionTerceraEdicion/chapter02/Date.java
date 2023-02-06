@@ -38,4 +38,10 @@ public class Date{
     }
     // ------------- end Methods Get -------------
 
+    // ------------- Start Others Methods -------------
+    public String toString(){
+        return this.day+"/"+month+"/"+year;
+    }
+    // ------------- end Others Methods -------------
+
 }//end Date
