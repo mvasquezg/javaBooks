@@ -16,6 +16,7 @@ public class DateApp{
         System.out.println("Mes = "+date.getMonth());
         System.out.println("Anho = "+date.getYear());
 
+        System.out.println("\nFecha: "+date);
 
 
 
