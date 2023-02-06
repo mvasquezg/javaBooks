@@ -39,9 +39,17 @@ public class Date{
     // ------------- end Methods Get -------------
 
     // ------------- Start Others Methods -------------
+    //Sobreescribiendo el metodo toString
     public String toString(){
         return this.day+"/"+month+"/"+year;
     }
+
+    //Sobreescribiendo el metodo equals
+    public boolean equals(Object o){
+        Date otherDate= (Date) o;
+        return (day==otherDate.day) && (month==otherDate.month) && (year==otherDate.year);
+    }
+
     // ------------- end Others Methods -------------
 
 }//end Date
