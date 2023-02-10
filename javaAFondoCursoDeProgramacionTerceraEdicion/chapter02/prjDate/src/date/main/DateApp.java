@@ -14,12 +14,13 @@
 package date.main;
 
 import java.util.Scanner;
-import date.controller.Date;
+//import date.controller.Date;
+import date.controller.DetailsDate;
 
 public class DateApp{
     public static void main(String[] args){
         
-      Scanner in=new Scanner(System.in);
+      /*Scanner in=new Scanner(System.in);
       String sDate="";
       Date dDate;
 
@@ -35,5 +36,13 @@ public class DateApp{
       dDate.addDays(numDays);
 
       System.out.println("Sumando: "+numDays+" dias; la fecha queda: "+dDate);
+      */
+      DetailsDate date=new DetailsDate();
+
+      date.setDay(2);
+      date.setMonth(10);
+      date.setYear(1985);
+
+      System.out.println(date);
     }//end main
 }//end DateApp
