@@ -14,8 +14,10 @@
 package date.main;
 
 import java.util.Scanner;
-//import date.controller.Date;
+import date.controller.Date;
 import date.controller.DetailsDate;
+import date.controller.DateTime;
+import date.showGrouping.ShowGrouping;
 
 public class DateApp{
     public static void main(String[] args){
@@ -37,12 +39,32 @@ public class DateApp{
 
       System.out.println("Sumando: "+numDays+" dias; la fecha queda: "+dDate);
       */
-      DetailsDate date=new DetailsDate();
-
+      
+      /*DetailsDate date=new DetailsDate();
+      Object date2=new DetailsDate("26/12/2008");
       date.setDay(2);
       date.setMonth(10);
       date.setYear(1985);
 
-      System.out.println(date);
+      System.out.println("Fecha "+date);
+      System.out.println("Obejto "+date2+"\n");*/
+
+      /*Object[] arrayObj={
+        new Date(2, 10, 1970),
+        new DetailsDate("23/10/1948"),
+        new String("Esto es una cadena"),
+        new Integer(34)
+      };
+
+      ShowGrouping.showGrouping(arrayObj);
+      */
+
+      //DetailsDate d=new DetailsDate(25, 10, 2008);
+      //DateTime d=new DateTime("25/10/2008", 14, 30, 10);
+      //System.out.println(d);
+
+      DetailsDate d=new DetailsDate(15, 10, 2025);
+      System.out.println(d);
+
     }//end main
 }//end DateApp
