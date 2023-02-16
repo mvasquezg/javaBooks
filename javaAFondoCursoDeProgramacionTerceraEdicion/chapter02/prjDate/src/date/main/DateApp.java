@@ -18,6 +18,7 @@ import date.controller.Date;
 import date.controller.DetailsDate;
 import date.controller.DateTime;
 import date.showGrouping.ShowGrouping;
+import date.instance.Person;
 
 public class DateApp{
     public static void main(String[] args){
@@ -63,8 +64,26 @@ public class DateApp{
       //DateTime d=new DateTime("25/10/2008", 14, 30, 10);
       //System.out.println(d);
 
-      DetailsDate d=new DetailsDate(15, 10, 2025);
-      System.out.println(d);
+      /*DetailsDate d=new DetailsDate(15, 10, 2025);
+      System.out.println(d);*/
+
+      Person p1=new Person("Miguel", "VAGM851001HTCSRG07", new DetailsDate(01,10,1985));
+
+      Person p2=new Person("Carolina", "GACC880520MTCRSR01", new DetailsDate(20,05,1988));
+
+      System.out.println(p1);
+      System.out.println(p1);
+      System.out.println(p1);
+
+      System.out.println("------------------");
+
+      System.out.println(p2);
+      System.out.println(p2);
+
+      System.out.println("------------------");
+
+      System.out.println(p1);
+      System.out.println(p1);
 
     }//end main
 }//end DateApp
