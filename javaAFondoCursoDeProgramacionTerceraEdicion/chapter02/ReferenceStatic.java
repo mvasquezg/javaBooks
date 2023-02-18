@@ -7,9 +7,11 @@ public final class ReferenceStatic{
     }   
     
     public static void main(String[] args){
-        System.out.println("a vale: "+a);
+        ReferenceStatic t=new ReferenceStatic();
+        
+        System.out.println("a vale: "+t.a);
 
-        method();
+        t.method();
     } 
 }//end ReferenceStatic
 
