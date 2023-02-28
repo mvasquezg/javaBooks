@@ -2,6 +2,7 @@ package collections.mainApp;
 
 import collections.controller.MyCollection;
 import collections.controller.MyCollectionGeneric;
+import collections.controller.MyStack;
 
 import java.util.Scanner;
 
@@ -32,7 +33,7 @@ public class CollectionApp{
             System.out.println(aux+" - "+aux.length()+" caracteres");
         }*/
 
-        String name="";
+        /*String name="";
         int x=1;
 
         System.out.print("Ingresa un nombre: ");
@@ -54,6 +55,21 @@ public class CollectionApp{
             aux=(String) mc.getObject(i);
 
             System.out.println(aux+" - "+aux.length()+" caracteres");
-        }
+        }*/
+
+        MyStack<Integer> c=new MyStack<Integer>();
+
+        c.stack(1);
+        c.stack(2);
+        c.stack(3);
+
+        System.out.println(c.desapilar());
+        System.out.println(c.desapilar());
+
+        c.stack(4);
+
+        System.out.println(c.desapilar());
+        System.out.println(c.desapilar());
+
     }    
 }//end CollectionApp
