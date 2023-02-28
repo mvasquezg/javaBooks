@@ -3,6 +3,7 @@ package collections.mainApp;
 import collections.controller.MyCollection;
 import collections.controller.MyCollectionGeneric;
 import collections.controller.MyStack;
+import collections.controller.Queue;
 
 import java.util.Scanner;
 
@@ -57,6 +58,7 @@ public class CollectionApp{
             System.out.println(aux+" - "+aux.length()+" caracteres");
         }*/
 
+        /*
         MyStack<Integer> c=new MyStack<Integer>();
 
         c.stack(1);
@@ -69,7 +71,23 @@ public class CollectionApp{
         c.stack(4);
 
         System.out.println(c.desapilar());
-        System.out.println(c.desapilar());
+        System.out.println(c.desajpilar());
+        */
+
+        Queue<Integer> c=new Queue<Integer>();
+
+        c.encolar(1);
+        c.encolar(2);
+        c.encolar(3);
+
+        System.out.println(c.desencolar());
+        System.out.println(c.desencolar());
+
+        c.encolar(4);
+
+        System.out.println(c.desencolar());
+        System.out.println(c.desencolar());
+
 
     }    
 }//end CollectionApp
