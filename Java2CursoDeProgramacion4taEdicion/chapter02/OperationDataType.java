@@ -1,3 +1,7 @@
+/**Libro: Java 2 Curso de Programacion 4ta Edicion.
+    Chapter 02.-Introduccion a Java.
+    Programa 002.-Operacion matematica con difrente tipos de datos.
+*/
 public class OperationDataType{
     public static void main(String[] args){
         double a=10;
